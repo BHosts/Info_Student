@@ -49,9 +49,10 @@
         th {
             background-color: #f4f4f4;
             font-weight: bold;
+            width: 50%; /* تحديد عرض العمود الأول */
         }
-        th:nth-child(1) {
-            width: 200px; /* تحديد عرض العمود الأول فقط */
+        td {
+            width: 50%; /* تحديد عرض العمود الثاني */
         }
         .buttons {
             display: flex;
@@ -65,7 +66,7 @@
             border-radius: 4px;
             padding: 10px 20px;
             cursor: pointer;
-           font-size: 17px;
+            font-size: 17px;
         }
         button:hover {
             background-color: #357abd;
